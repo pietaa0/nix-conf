@@ -4,6 +4,8 @@ Personal [NixOS](https://nixos.org) configuration, managed with [flakes](https:/
 
 The goal is a fully reproducible system: every machine is declared in this repo, so setting up a new device is just a rebuild, and the configuration stays consistent across all of them.
 
+![The niri desktop on dreamer — nvim, onefetch, and a git log](docs/screenshots/desktop.png)
+
 ## Machines
 
 | Hostname | Type  | GPU      | Notes                                      |
