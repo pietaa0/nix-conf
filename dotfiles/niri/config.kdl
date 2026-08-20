@@ -84,6 +84,12 @@ window-rule {
     }
 }
 
+window-rule {
+    // Round the corners of all windows.
+    geometry-corner-radius 12
+    clip-to-geometry true
+}
+
 blur {
     passes 1
     offset 3
