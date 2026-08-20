@@ -24,6 +24,7 @@ in
 
     users.users = genAttrs cfg.users (name: {
       isNormalUser = true;
+      initialPassword = "changeme";
       shell = pkgs.zsh;
     });
 
