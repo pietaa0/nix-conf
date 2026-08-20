@@ -28,7 +28,7 @@ in
 
           shellAliases = {
             la = "ls -la";
-            configedit = "sudo -E nvim /etc/nixos/configuration.nix";
+            configedit = "sudo -E nvim /etc/nixos/hosts/$(hostname)/configuration.nix";
             configdir = "cd /etc/nixos";
             moddir = "cd /etc/nixos/modules";
             dotfiledir = "cd /etc/nixos/dotfiles";
