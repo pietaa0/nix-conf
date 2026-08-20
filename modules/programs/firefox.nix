@@ -29,7 +29,7 @@ in
               "privacy.trackingprotection.enabled" = true;
               "signon.rememberSignons" = false;
               "browser.download.folderList" = 2;
-              "browser.download.dir" = "/home/r0/Downloads";
+              "browser.download.dir" = "/home/${name}/Downloads";
               "extensions.pocket.enabled" = false;
               "browser.tabs.warnOnClose" = false;
               "extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
