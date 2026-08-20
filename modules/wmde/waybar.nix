@@ -35,7 +35,7 @@ in
 
                 battery = {
                   format = "{icon} {capacity}%";
-                  format-full = "{icon} {capacity%}";
+                  format-full = "{icon} {capacity}%";
                   format-charging = "󱐌 {capacity}%";
                   format-plugged = " {capacity}%";
                   format-alt = "{icon} {time}";
@@ -67,7 +67,11 @@ in
                 cpu = { format = "sam 󰻠 {usage}%"; interval = 2; };
                 memory = { format = "󰍛 {percentage}%"; interval = 2; };
                 temperature = {
-                  hwmon-path = "/sys/class/hwmon/hwmon1/temp1_input";
+                  hwmon-path-abs = [
+                    "/sys/devices/pci0000:00/0000:00:18.3/hwmon"
+                    "/sys/devices/platform/k10temp/hwmon"
+                  ];
+                  input-filename = "temp1_input";
                   format = "{icon} {temperatureC}C";
                   critical-threshold = 80;
                   format-critical = "{icon} {temperatureC}C";
