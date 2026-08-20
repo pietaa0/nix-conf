@@ -30,9 +30,9 @@ in
               "signon.rememberSignons" = false;
               "browser.download.folderList" = 2;
               "browser.download.dir" = "/home/r0/Downloads";
-              "extentions.pocket.enabled" = false;
+              "extensions.pocket.enabled" = false;
               "browser.tabs.warnOnClose" = false;
-              "extentions.activeThemeID" = "firefox-compact-dark@mozilla.org";
+              "extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
               "ui.systemUsesDarkTheme" = 1;
               "layout.css.prefers-color-scheme.content-override" = 0;
               "browser.urlbar.suggest.searches" = false;
