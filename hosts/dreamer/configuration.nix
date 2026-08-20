@@ -10,6 +10,12 @@
       enable = true;
       users = [ "r0" "roos" ];
     };
+    firefox.enable = true;
+    nvim.enable = true;
+    nvim.users = [ "r0" "root" ];
+    zsh.enable = true;
+    zsh.users = [ "r0" "roos" "root" ];
+    kitty.enable = true;
   };
 
   networking.hostName = "dreamer";

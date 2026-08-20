@@ -8,6 +8,7 @@ in
   imports = [
     ./home/r0.nix
     ./home/roos.nix
+    ./home/root.nix
   ];
 
   options.modules.user = {
