@@ -253,4 +253,8 @@ gestures {
 }
 
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
+
+// Wallpaper — replace dotfiles/wallpapers/wallpaper.png to change it.
+spawn-at-startup "swaybg" "-i" "/etc/nixos/dotfiles/wallpapers/wallpaper.png" "-m" "fill"
+
 spawn-at-startup "waybar"

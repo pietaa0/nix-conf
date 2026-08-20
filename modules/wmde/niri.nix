@@ -25,7 +25,7 @@ in
   config = lib.mkIf
     cfg.enable
     {
-      environment.systemPackages = with pkgs; [ sddm-astronaut xwayland-satellite cliphist ];
+      environment.systemPackages = with pkgs; [ sddm-astronaut xwayland-satellite cliphist swaybg ];
       programs.niri.enable = true;
 
       modules = {
