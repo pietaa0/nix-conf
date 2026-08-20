@@ -3,6 +3,8 @@
 {
   imports = [
     ../modules/base.nix
+    ../modules/gaming.nix
+    ../modules/nvidia.nix
     ../modules/user.nix
     ../modules/programs/dvd.nix
     ../modules/programs/firefox.nix

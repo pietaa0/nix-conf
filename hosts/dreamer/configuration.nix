@@ -6,6 +6,8 @@
   ];
 
   modules = {
+    nvidia.enable = false;
+    gaming.enable = true;
     user = {
       enable = true;
       users = [ "r0" "roos" ];
