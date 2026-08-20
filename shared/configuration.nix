@@ -3,6 +3,7 @@
 {
   imports = [
     ../modules/base.nix
+    ../modules/user.nix
   ];
 
   modules = {
