@@ -57,6 +57,11 @@ nh os switch --hostname dreamer
 
 > The modules assume the repo is deployed to `/etc/nixos` (a symlink works too).
 
+## Customization
+
+- **Wallpaper** — replace `dotfiles/wallpapers/wallpaper.png`; the niri config spawns `swaybg` with it at startup (see `dotfiles/niri/config.kdl`).
+- **Git identity** — set `programs.git.userName` / `programs.git.userEmail` per user in `modules/home/<user>.nix`.
+
 ## License
 
 [MIT](LICENSE)
