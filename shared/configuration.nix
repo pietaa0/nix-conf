@@ -4,10 +4,13 @@
   imports = [
     ../modules/base.nix
     ../modules/user.nix
+    ../modules/programs/dvd.nix
     ../modules/programs/firefox.nix
+    ../modules/programs/kicad.nix
     ../modules/programs/kitty.nix
     ../modules/programs/nh.nix
     ../modules/programs/nvim.nix
+    ../modules/programs/obsidian.nix
     ../modules/programs/zsh.nix
   ];
 

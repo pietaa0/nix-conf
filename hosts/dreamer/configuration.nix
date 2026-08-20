@@ -16,6 +16,10 @@
     zsh.enable = true;
     zsh.users = [ "r0" "roos" "root" ];
     kitty.enable = true;
+    dvd.enable = false;
+    kicad.enable = false;
+    obsidian.enable = true;
+    obsidian.users = [ "r0" ];
   };
 
   networking.hostName = "dreamer";
