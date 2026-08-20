@@ -12,6 +12,7 @@
     ../modules/programs/nvim.nix
     ../modules/programs/obsidian.nix
     ../modules/programs/zsh.nix
+    ../modules/wmde/niri.nix
   ];
 
   modules = {
