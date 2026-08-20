@@ -2,6 +2,8 @@
 
 Personal [NixOS](https://nixos.org) configuration, managed with [flakes](https://nixos.wiki/wiki/Flakes) and [home-manager](https://github.com/nix-community/home-manager).
 
+The goal is a fully reproducible system: every machine is declared in this repo, so setting up a new device is just a rebuild, and the configuration stays consistent across all of them.
+
 ## Machines
 
 | Hostname | Type  | GPU      | Notes                                      |
@@ -61,6 +63,7 @@ nh os switch --hostname dreamer
 
 - **Wallpaper** — replace `dotfiles/wallpapers/wallpaper.png`; the niri config spawns `swaybg` with it at startup (see `dotfiles/niri/config.kdl`).
 - **Git identity** — set `programs.git.userName` / `programs.git.userEmail` per user in `modules/home/<user>.nix`.
+- **Passwords** — users are created with the initial password `changeme` (see `modules/user.nix`).
 
 ## License
 
