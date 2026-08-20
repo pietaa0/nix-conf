@@ -12,6 +12,8 @@
       enable = true;
       users = [ "r0" "roos" ];
     };
+    laptop.enable = false;
+    opt.enable = true;
     firefox.enable = true;
     nvim.enable = true;
     nvim.users = [ "r0" "root" ];
