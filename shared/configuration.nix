@@ -7,6 +7,7 @@
     ../modules/laptop.nix
     ../modules/nvidia.nix
     ../modules/opt.nix
+    ../modules/ssh.nix
     ../modules/user.nix
     ../modules/programs/dvd.nix
     ../modules/programs/firefox.nix

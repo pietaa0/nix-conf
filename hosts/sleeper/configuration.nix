@@ -25,6 +25,7 @@
     kicad.enable = true;
     obsidian.enable = true;
     obsidian.users = [ "r0" ];
+    ssh.enable = true;
   };
 
   networking.hostName = "sleeper";
